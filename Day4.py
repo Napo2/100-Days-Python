@@ -25,18 +25,11 @@ scissors = '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
-
 import random
 
 player_choice = input("What do you chose? Type 0 for Rock, 1 for Paper, or 2 for Scissors.\n")
 
 player = [rock, paper, scissors]
-
-
-# Rock = 0
-# Paper = 1
-# Scissors = 2
 
 pci = player[int(player_choice)]
 
@@ -65,3 +58,5 @@ elif pci == scissors and cc == paper:
   print("You win!")
 elif pci == scissors and cc == scissors:
   print("Tie, try again.")
+else:
+  print("Invalid number.")
