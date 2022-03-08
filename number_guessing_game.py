@@ -17,11 +17,9 @@ guesses = 0
 def compare(random_number, guess):
   """Compares the random integer and guessed number"""
   if random_number > guess:
-    return "Too low."
-    return "Guess again."
+    return "Too low, guess again."
   elif guess > random_number:
-    return "Too high."
-    return "Guess again"
+    return "Too high, guess again"
   else:
     return "You guessed correctly!"
 
